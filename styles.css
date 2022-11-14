@@ -1,0 +1,106 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background: #303030;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 75px;
+    margin: 0;
+    
+}
+
+header>nav{
+    display: flex;
+    gap: 20px;
+}
+
+header>nav>a{
+    padding: 4px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+}
+
+header>nav>a:hover{
+    text-decoration: underline;
+    color: #060505;
+    background: #f0eded;
+}
+
+header>nav>a:active{
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+
+header>button{
+    color: #FFFFFF;
+    background: #0C70F2;
+    padding: 3px 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+header>button:hover{
+    text-decoration: underline;
+    color: #0C70F2;
+    background: #FFFFFF;
+}
+
+header>button:active{
+    position: relative;
+    top: -2px;
+    left: -2px;  
+}
+
+
+main{
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    width: 100%;
+    height: 100%;
+}
+
+section#descrition{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    padding: 100px 0; 
+}
+
+section#descrition>h1{
+    font-weight: 800;
+    margin-top: 0;
+}
+
+section#descrition>p{
+    width: 50%;
+    height: 70%;
+    margin: auto;
+}
+
+section#descrition>span{
+    background: #303030;
+}
+
+section#formulario{
+    display: flex;
+    justify-content: center;
+}
+
+section#formulario>form{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+section#formulario>form>ul{
+    list-style-type:none;
+}
