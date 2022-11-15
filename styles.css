@@ -45,8 +45,8 @@ header>nav>a:active{
 header>button{
     color: #FFFFFF;
     background: #0C70F2;
-    padding: 3px 5px;
     box-shadow: 1px 1px 1px black;
+    max-height: 30px;
 }
 
 header>button:hover{
@@ -99,7 +99,7 @@ section#formulario>form{
     display:flex;
     flex-direction: column;
     align-items: left;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 
 section#formulario>form>div#checkbox{
