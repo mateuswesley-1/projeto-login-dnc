@@ -93,6 +93,7 @@ section#descrition>p>span{
 section#formulario{
     display: flex;
     justify-content: center;
+    padding: 30px;
 }
 
 section#formulario>form{
@@ -117,7 +118,7 @@ section#formulario>form>input{
 section#formulario>form>label{
     margin-top: 10px;
     border-radius: 8px;
-    min-width: 200px;
+    max-width: 200px;
     height: 20px;
     padding: 5px;
 }
