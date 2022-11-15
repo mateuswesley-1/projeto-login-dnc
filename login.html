@@ -30,16 +30,27 @@
         <section id="formulario">
             <form action="https://formspree.io/f/xwkzylyb" method="POST">
                 <label for="nome">Nome:</label> 
-                <input type="text" name="nome">
+                <input type="text" name="nome" placeholder="Insira seu Nome aqui">
                 <label for="sobrenome">Sobrenome:</label>
-                <input type="text" name="sobrenome">
-                <label for="interesse">Área de interesse:</label>
-                <ul>
-                    <li><input type="checkbox" name="interesse" id="front">Front-end</li>
-                    <li><input type="checkbox" name="interesse" id="back">Back-end</li>
-                    <li><input type="checkbox" name="interesse" id="banco">Banco de dados</li>
-                </ul>
+                <input type="text" name="sobrenome" placeholder="Insira seu Sobrenome aqui">
+                <label for="interesse" placeholder="Área de Interesse">Área de interesse:</label>
 
+                <div id="checkbox">
+                    <span><input type="checkbox" name="interesse" id="front">Front-end</span>
+                    <span><input type="checkbox" name="interesse" id="back">Back-end</span>
+                    <span><input type="checkbox" name="interesse" id="banco">Banco de dados</span>
+                </div>
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="name@exemple.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(55) 95555 5555">
+
+                <label for="mensagem">Por que você quer participar desse evento?</label>
+                <input type="text" name="mensagem" id="mensagem" placeholder="O que te interessa na área que você escolheu?">
+
+                <button type="submit">Enviar</button>
 
 
 
@@ -51,7 +62,35 @@
     </main>
 
     <footer>
+        <div id="section1">
+            <section id="escolas">
+                <p id="titulo">Escolas</p>
+                <p>Formação em Tecnologia</p>
 
+                <p>Formação em Dados</p>
+
+                <p>Formação em Marketing</p>
+
+                <p>Formação em Projetos</p>
+
+                <p>Formação em Produto</p>
+            </section>
+
+            <section id="sobre">
+                <p id="titulo">Sobre a DNC</p>
+                <p>História</p>
+                <p>Missão e Valores</p>
+                <p>Trabalhe Conosco</p>
+                <p>Conteúdo Gratuito</p>
+            </section>
+
+            <section id="termos">
+                <p>© 2022 DTC Treinamentos & Consultoria LTDA | CNPJ: 27.995.577/0001-37 | R. Justino Cobra, 61 – Vila Ema | São José dos Campos – SP | CEP 12243-030</p>
+            </section>
+        </div>
+        
+
+        <section id="ata">Termos de Uso | Política de Privacidade</section>
     </footer>
 </body>
 </html>
