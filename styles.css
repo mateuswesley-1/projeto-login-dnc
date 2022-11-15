@@ -145,12 +145,14 @@ section#formulario>form>button:active{
 footer{
     background: #0C70F2;
     font-size: 25px;
+    padding: 10px;
 }
 
 footer nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 330px;
 }
 
 footer ul{
@@ -168,7 +170,7 @@ footer #linha1{
 footer ul li{
     text-align: center;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 15px;
     margin: 20px 0;
 }
 
@@ -178,11 +180,44 @@ footer ul li a{
     
 }
 
+footer ul li a:hover{
+    color: #303030;
+}
+
 footer h5{
     text-align: center;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 15px;
     background-color: #060505;
     border-radius: 10px;
     padding: 5px 20px;
+    margin-bottom: 15px;
+}
+
+footer #endereco{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    max-width: 300px;   
+}
+footer #linha2{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    height: 20px;
+}
+footer #linha2 a{
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer #linha2 a:hover{
+    color: #303030;
+}
+
+footer #linha2 a:first-child{
+    color: #303030;
+    border-right: 2px solid white;
 }
